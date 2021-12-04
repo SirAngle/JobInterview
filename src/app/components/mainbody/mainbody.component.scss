@@ -1,9 +1,10 @@
 .mainbody {
   background-color: #ffffff;
   margin-top: 2rem;
-  border-radius: 3rem;
   border-color: black;
   border-width: 5px;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 .marketingVideo {
@@ -24,4 +25,26 @@
   padding: 1rem;
   border-top: solid 2px #26cc00;
   border-bottom: solid 2px #26cc00;
+}
+
+.joinButton {
+  border-radius: 20rem;
+  background-color: #2fcf0c;
+  padding: 0.1rem;
+  margin: 1rem;
+  h2 {
+    color: white;
+  }
+}
+
+.question {
+  min-height: 4rem;
+  a {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: bold;
+    font-family: SouthWest, arial;
+  }
 }

@@ -1,4 +1,4 @@
-<div class="container p-4 mainbody" dir="rtl">
+<div class="container mainbody" dir="rtl">
   <div class="row p-5">
     <div class="col-md-8">
       <img src="../../assets/images/trade-logo-big.png" alt="" />
@@ -7,7 +7,9 @@
         עמלות במסחר בבורסה ונהנים מחבילת הצטרפות מצוינת. מתאים ללקוחות כל
         הבנקים.
       </p>
-      <h2>למה זה מתאים לכם?</h2>
+      <h1>למה זה מתאים לכם?</h1>
+      <br />
+      <br />
       <div class="row text-center advantages">
         <div class="col">
           <img src="../../assets/images/ICONS-4.png" alt="" />
@@ -43,14 +45,22 @@
           src="https://www.youtube.com/embed/SKUKfoBHYzQ?controls=0"
         ></iframe>
       </div>
+      <div
+        class="joinButton"
+        [routerLink]="['/join']"
+        routerLinkActive="router-link-active"
+      >
+        <button class="btn"><h2>Online הצטרפו עכשיו</h2></button>
+      </div>
     </div>
   </div>
   <!-- 2nd half of the page -->
+
   <h1 class="qanda text-center">שאלות ותשובות</h1>
 
   <div class="container row">
     <div class="container col-md-6">
-      <div class="col">
+      <div class="col question">
         <a
           data-bs-toggle="collapse"
           href="#מיאנחנו"
@@ -69,7 +79,7 @@
         </div>
         <div class="col-md-6"></div>
       </div>
-      <div class="col">
+      <div class="col question">
         <a
           data-bs-toggle="collapse"
           href="#כמה"
@@ -86,7 +96,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col question">
         <a
           data-bs-toggle="collapse"
           href="#פקמ"
