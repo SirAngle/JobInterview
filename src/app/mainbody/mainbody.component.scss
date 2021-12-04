@@ -1,0 +1,27 @@
+.mainbody {
+  background-color: #ffffff;
+  margin-top: 2rem;
+  border-radius: 3rem;
+  border-color: black;
+  border-width: 5px;
+}
+
+.marketingVideo {
+  margin-top: 50px;
+  align-self: center;
+}
+
+.advantages {
+  span {
+    background-color: #26cc00;
+    width: 6rem;
+    height: 5px;
+    display: inline-block;
+  }
+}
+
+.qanda {
+  padding: 1rem;
+  border-top: solid 2px #26cc00;
+  border-bottom: solid 2px #26cc00;
+}
